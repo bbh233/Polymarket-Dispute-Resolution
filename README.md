@@ -63,15 +63,11 @@ This leads to $E(\text{Malice}) \gg E(\text{Honesty})$, making an attack almost 
 
 ---
 * **诚实决策的期望收益**:
-    $$
-    E(\text{诚实}) = R_h - C_h
-    $$
+    $$E(\text{诚实}) = R_h - C_h$$
     $R_h$ 是作为诚实节点获得的奖励（例如，网络费用），$C_h$ 是成为诚实节点的成本（例如，操作成本）。
 
 * **作恶决策的期望收益**:
-    $$
-    E(\text{作恶}) = P_s \cdot G_d - C_d - (1-P_s) \cdot L_p
-    $$
+    $$E(\text{作恶}) = P_s \cdot G_d - C_d - (1-P_s) \cdot L_p$$
     * $G_d$: 作恶成功后的总**收益**。在Polymarket的案例中，这是攻击者在市场上押注的头寸所能带来的利润。
     * $C_d$: 发动攻击的总**成本**。在UMA的案例中，这主要是获取超过51%投票权代币的成本。
     * $P_s$: 攻击**成功的概率**。
