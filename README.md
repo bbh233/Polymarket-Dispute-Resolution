@@ -39,15 +39,11 @@ $$E(\text{诚实}) > E(\text{作恶})$$
 ### 收益的数学分解
 
 * **Expected Payoff of Honesty**:
-    $$
-    E(\text{Honesty}) = R_h - C_h
-    $$
+    $$E(\text{Honesty}) = R_h - C_h$$
     Where $R_h$ is the reward for being an honest node (e.g., network fees) and $C_h$ is the cost of being honest (e.g., operational costs).
 
 * **Expected Payoff of Malice**:
-    $$
-    E(\text{Malice}) = P_s \cdot G_d - C_d - (1-P_s) \cdot L_p
-    $$
+    $$E(\text{Malice}) = P_s \cdot G_d - C_d - (1-P_s) \cdot L_p$$
     * $G_d$: The total **Gain from deceit**. In the Polymarket case, this is the profit from the attacker's market position, which can be immense.
     * $C_d$: The total **Cost of deceit**. In the UMA case, this is primarily the cost to acquire over 51% of the voting tokens.
     * $P_s$: The **Probability of success** for the attack.
